@@ -623,7 +623,7 @@ html {
     color: $banner-text-color;
     padding: 10px 5px;
     text-shadow: 3px 3px 7px #16161655;
-    background-color: rgb(89 228 168);
+    background-color: rgba(89 228 168, 85%);
 
     & > *:first-child {
       margin: 0;
