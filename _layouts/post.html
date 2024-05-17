@@ -3,8 +3,6 @@ layout: framework
 banner:
 banner_html: post-header.html
 hidden: []
-sidebar:
-  - article-menu
 ---
 
 <div class="post">
@@ -45,7 +43,7 @@ sidebar:
 
     {%- assign result = hidden | where_exp: "item", "item == 'related_posts'" -%}
     {%- if result.size == 0 -%}
-    <div class="post-related">
+    <!-- <div class="post-related">
       <div>Related Articles</div>
       <ul>
         {% assign posts = site[page.collection] | sample:4 %}
@@ -64,7 +62,7 @@ sidebar:
         </li>
         {%- endfor -%}
       </ul>
-    </div>
+    </div> -->
     {%- endif -%}
 
     {%- assign result = hidden | where_exp: "item", "item == 'comments'" -%}
