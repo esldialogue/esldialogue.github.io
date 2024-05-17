@@ -60,7 +60,7 @@ yat:
 # debug: false
 
 # If you don't want transparent header, you can set false
-# header_transparent: true
+header_transparent: false
 
 # If you want to change the content width, you can set to another value
 # content_width: "920px"
@@ -160,11 +160,11 @@ night_mode: "auto"
 #   - about.md
 
 # Page default value
-# defaults:
-#   home:
-#     heading: "Your awesome heading"
-#     subheading: "Your awesome subheading"
-#     banner: "Your image url"
+defaults:
+  home:
+    heading: "Welcome to ESL Dialogue"
+    subheading: "Read, print, share, or listen to our easy to understand ESL dialogues!"
+    banner: "/assets/images/banners/convo-banner.jpg"
 
 # Banner default settings
 # These banner settings are for global banner default, but you can also
@@ -179,8 +179,8 @@ night_mode: "auto"
 #   background: "rgba(0, 0, 0, 0.8)"  # Banner background (Could be a image)
 #   height: "640px"         # Banner default height
 #   min_height: null        # Banner minimum height
-#   heading_style: null     # Custom heading style (e.g. "font-weight: bold; text-decoration: underline")
-#   subheading_style: null  # Custom subheading style (e.g. color: gold)
+  # heading_style: null     # Custom heading style (e.g. "font-weight: bold; text-decoration: underline")
+  # subheading_style: null  # Custom subheading style (e.g. color: gold)
 
 # Excerpt settings
 # excerpt:

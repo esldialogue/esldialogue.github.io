@@ -267,7 +267,7 @@ table {
  */
 @mixin vertical-center($position) {
   position: $position;
-  top: 50%;
+  top: 20%;
   transform: translateY(-50%);
 }
 
